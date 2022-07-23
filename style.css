@@ -1,0 +1,540 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  *::after, *::before {
+    box-sizing: inherit;
+  }
+  
+  html {
+    /* スムーススクロール用 */
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'BIZ UDPGothic', sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  header {
+    display: flex;
+    background-color: #d8d8d8;
+    width: 100%;
+    height: 100px;
+    z-index: 9999; /*重なりを調整*/
+    border: 1.5px solid #000000;
+  }
+
+  header img {
+      width: 96%;
+      height: 96%;
+      margin-top: 1.75px;
+      margin-left: -35px;
+  }
+
+  header a {
+      width: 100px;
+      height: 100px;
+  }
+
+  header h2 {
+      width: 100%;
+      font-size: 50px;
+      margin-bottom: 10px;
+      z-index: 9999;
+  }
+
+  header .dheader h2 {
+      margin-top: 10px;
+      margin-left: 50px;
+      margin-right: 65px;
+  }
+
+  .black {
+    position: relative;
+    width: 110px;
+    height: 4210px;
+    left: 342px;
+    background: black;
+    z-index: 9999;
+}
+
+  .profile {
+      display: block;
+      width: 100%;
+      height: 720px;
+  }
+
+  .profile-item {
+      display: block;
+      width: 100%;
+  }
+
+  .profile-item h3 {
+      position: relative;
+      margin: 50px;
+      font-size: 50px;
+      z-index: 99999;
+  }
+
+  .background1 {
+      position: absolute;
+      background: #c9c9c9;
+      width: 96%;
+      height: 500px;
+      z-index: 5000;
+      top: 190px;
+      margin-left: 30px;
+      border-radius: 25px;
+      border: 1.5px solid #000000;
+  }
+
+  .mozihaikei1 {
+    position: absolute;
+    background: #ffffff;
+    width: 500px;
+    height: 400px;
+    z-index: 9999;
+    top: 250px;
+    margin-left: 60px;
+    border-radius: 25px;
+    border: 1.5px solid #000000;
+}
+
+.profile-item a {
+    display: block;
+    position: relative;
+    width: 450px;
+    font-size: 30px;
+    line-height: 1.5em;
+    margin-left: 100px;
+    z-index: 9999;
+}
+
+.profile-item p {
+    display: block;
+    position: relative;
+    width: 430px;
+    font-size: 30px;
+    line-height: 1.5em;
+    margin-top: 120px;
+    margin-left: 100px;
+    z-index: 99999;
+}
+
+.profile-item img {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    margin-top: -370px;
+    margin-left: 950px;
+    border-radius: 25px;
+    z-index: 99999;
+    border: 1.5px solid #000000;
+}
+
+.works {
+    display: flex;
+    height: 700px;
+}
+
+.works-item {
+    display: flex;
+    position: relative;
+}
+
+.works-item h3 {
+    display: flex;
+    position: absolute;
+    width: 300px;
+    margin: 50px;
+    margin-left: 650px;
+    font-size: 50px;
+    z-index: 99999;
+}
+
+.background2 {
+    position: absolute;
+    background: #ffffff;
+    width: 96%;
+    height: 700px;
+    z-index: 5000;
+    top: 10px;
+    margin-left: 30px;
+    border-radius: 25px;
+    border: 1.5px solid #000000;
+}
+
+.background3 {
+    position: absolute;
+    background: #c9c9c9;
+    width: 91.5%;
+    height: 500px;
+    z-index: 10000;
+    margin-left: 63.5px;
+    top: 190px;
+    border-radius: 25px;
+    border: 1.5px solid #000000;
+}
+
+.mozihaikei2 {
+    position: absolute;
+    background: #d8d8d8;
+    width: 400px;
+    height: 70px;
+    z-index: 9999;
+    top: 52.5px;
+    margin-left: 525px;
+    border-radius: 25px;
+    border: 1.5px solid #000000;
+}
+
+.works-img {
+    display: inline-flex;
+}
+
+.works-img1 img {
+    position: relative;
+    width: 400px;
+    height: 230px;
+    margin-top: 220px;
+    margin-left: -10px;
+    z-index: 99999999;
+    border: 1.5px solid #000000;
+}
+
+.works-img1 img:hover {
+    transform: translate(0px, -10px);
+}
+
+.works-img1 a {
+    display: inline-flex;
+    position: relative;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 65px;
+    margin-left: 120px;
+    z-index: 99999999;
+}
+
+.works-img1 a:hover {
+    color: #ffffff;
+}
+
+.works-img2 img {
+    position: relative;
+    width: 250px;
+    height: 300px;
+    margin-top: 220px;
+    margin-left: -415px;
+    left: 400px;
+    z-index: 99999999;
+    border: 1.5px solid #000000;
+}
+
+.works-img2 img:hover {
+    transform: translate(0px, -10px);
+}
+
+.works-img2 a {
+    display: inline-flex;
+    position: relative;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 55px;
+    left: -380px;
+    z-index: 99999999;
+}
+
+.works-img2 a:hover {
+    color: #ffffff;
+}
+
+.works-img3 img {
+    position: relative;
+    width: 400px;
+    height: 230px;
+    margin-top: 220px;
+    margin-left: -255px;
+    left: 180px;
+    z-index: 99999999;
+    border: 1.5px solid #000000;
+}
+
+.works-img3 img:hover {
+    transform: translate(0px, -10px);
+}
+
+.works-img3 a {
+    display: inline-flex;
+    position: relative;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 65px;
+    margin-left: -100px;
+    left: -150px;
+    z-index: 99999999;
+}
+
+.works-img3 a:hover {
+    color: #ffffff;
+}
+
+.sns {
+    display: flex;
+    width: 100%;
+    height: 20px;
+    margin-top: 200px;
+    z-index: 9999;
+}
+
+.sns-item {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.background4 {
+    display: flex;
+    position: absolute;
+    background: #c9c9c9;
+    width: 100%;
+    height: 110px;
+    z-index: 999;
+    margin: -3px;
+    margin-top: -5px;
+    border: 1.5px solid #000000;
+}
+
+.sns-item ul {
+    display: flex;
+}
+
+.sns-item a {
+    color: black;
+    font-size: 50px;
+    margin-top:15px;
+    margin-left: 45px;
+    z-index: 9999;
+}
+
+.sns-item a:hover {
+    color: #ffffff;
+}
+
+.sns-item img {
+    width: 100px;
+    height: 100px;
+    margin-top: -15px;
+    margin-left: 35px;
+    margin-right : 10px;
+    z-index: 9999;
+}
+
+.sns-item img:hover {
+    transform:scale(1.2,1.2);
+}
+
+.sns-item h1 {
+    position: relative;
+    font-size: 100px;
+    margin-top: -25px;
+    margin-left: 55px;
+    letter-spacing: 0.5rem;
+    z-index: 10000;
+}
+
+span {
+    color: #ffffff;
+    z-index: 10000;
+}
+
+footer {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    margin-top: 270px;
+} 
+
+.background5 {
+    display: flex;
+    position: absolute;
+    background: #d8d8d8;
+    width: 100%;
+    height: 100px;
+    z-index: 999;
+    margin: 0px;
+    margin-top: -5px;
+    border: 1.5px solid #000000;
+}
+
+footer p {
+    font-size: 30px;
+    margin-top: 25px;
+    margin-left: 580px;
+    z-index: 99999;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #d8d8d8;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    position: relative;
+  }
+  
+
+  .span-container,
+  .checkbox {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    right: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .checkbox {
+    opacity: 0;
+    z-index: 100;
+  }
+  
+  .span-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    z-index: 90;
+  }
+  
+  .span-container span {
+    width: 100%;
+    height: 3px;
+    background: white;
+    transition: all 250ms ease-out;
+    transform-origin: 0 0;
+  }
+  
+  .checkbox:checked ~ .span-container span:nth-last-child(1) {
+      transform: rotate(-45deg) translate(-1px, 0px);
+  }
+  
+  .checkbox:checked ~ .span-container span:nth-last-child(2) {
+      transform: rotate(0deg) scale(0.2, 0.2);
+      opacity: 0;
+  }
+  
+  .checkbox:checked ~ .span-container span:nth-last-child(3) {
+      transform: rotate(45deg) translate(0px, -1px);
+  }
+  
+  .nav-container{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    z-index: 50;
+  }
+  .nav-container a {
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      font-size: clamp(1.4rem, 2.4vw, 2.2rem);
+      margin: 1rem auto;
+    }
+    
+   .nav-container a:hover {
+      color: rgb(255, 255, 255);
+    }
+  
+  .checkbox:checked ~ .nav-container {
+    transform: translateX(0%);
+  }
+  
+
+  
+  @media screen and (min-width: 1000px) {
+  
+    .checkbox,
+    .span-container
+    {
+      display: none;
+    }
+    
+    .nav-container{
+      position: relative;
+      left: none;
+      top: none;
+      width: auto;
+      height: 100%;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+      z-index: 50;
+      background: transparent;
+      transition: none;
+      transform: none;
+    }
+    .nav-container a {
+        position: relative;
+        margin-right: 1.5rem;
+        color: #000000;
+        z-index: 10000;
+      }
+}
+
+.nav-container1 a {
+    right: 210px;
+    background-color: #ffffff;
+}
+
+.nav-container1 a:hover {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+
+.nav-container2 a {
+    right: 170px;
+    background-color: #ffffff;
+}
+
+.nav-container2 a:hover {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.nav-container3 a {
+    right: -10px;
+    background-color: #ffffff;
+}
+
+.nav-container3 a:hover {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.wave{
+position:relative;
+height:200px;/*何も表示されない場合は各波の親要素に高さを持たせましょう。*/
+}
+canvas{
+position: absolute;
+top: 1370px;
+bottom: 1000;
+left:0;
+width: 100%;
+}
